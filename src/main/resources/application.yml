@@ -10,8 +10,8 @@ spring:
   application:
     name: FOOD-SERVICE
   datasource:
-    url: jdbc:mysql://localhost:3306/delivery_food_db
-    username: delivery_user
+    url: jdbc:mysql://mysql-db.c54vu5cxnk6k.us-east-1.rds.amazonaws.com:3306/delivery_food_db
+    username: loschachos
     password: abcde12345
     driver-class-name: com.mysql.cj.jdbc.Driver
 
